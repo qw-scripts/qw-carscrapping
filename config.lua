@@ -1,9 +1,5 @@
 Config = {}
 
-Config.Phone = 'gksphone' -- currently supporting gksphone and qb-core phone
-Config.BankScript = 'renewed' -- currently supporting renewed or qb-core banking
-Config.FuelSystem = 'ps-fuel'
-
 Config.Debug = false
 
 Config.ScrappingZone = {
@@ -13,4 +9,4 @@ Config.ScrappingZone = {
     vector2(-457.49, -1663.44)
 }
 
-Config.RewardItem = 'recyclablematerial'
+Config.RewardItem = 'iron'
