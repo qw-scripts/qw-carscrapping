@@ -1,4 +1,4 @@
-# qw-carchopping
+# qw-carscrapping
 
 ### Basic car scrapping script that allows you to bring any vehicle by and scrap it for a customizable item based on their skill level.
 ---
