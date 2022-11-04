@@ -5,7 +5,7 @@ RegisterNetEvent('qw-carchopping:server:recieveRecycleMaterials', function(curre
     local src = source
     local Player = QBCore.Functions.GetPlayer(src)
 
-    local receiveAmount = math.random(4, 10)
+    local receiveAmount = math.random(1, 3)
 
     Player.Functions.AddItem(Config.RewardItem, receiveAmount * currentSkill + 5)
     TriggerClientEvent('inventory:client:ItemBox', src, QBCore.Shared.Items[Config.RewardItem], "add", receiveAmount * currentSkill + 5)
